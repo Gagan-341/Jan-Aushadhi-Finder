@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Jan Aushadhi Finder</string>
+    <string name="distance_away">%1$s km away</string>
+    <string name="status_open">OPEN</string>
+    <string name="status_closed">CLOSED</string>
+
+    <string name="app_title_home">Jan-Aushadhi Finder</string>
+    <string name="btn_sign_in">SIGN IN</string>
+    <string name="healthcare_for_all">HEALTHCARE FOR ALL</string>
+    <string name="find_affordable_medicines">Find Affordable Medicines</string>
+    <string name="search_description">Search over 1,500+ high-quality generic medicines available at PMBJK stores nationwide.</string>
+    <string name="search_medicine_hint">Search Medicine...</string>
+    <string name="btn_search_medicine">Search Medicine</string>
+    <string name="btn_find_stores">Find Stores</string>
+    <string name="content_desc_logo">App Logo</string>
+    <string name="medicines_found">%1$d MEDICINES FOUND</string>
+
+    <string name="label_branded_price">Branded Price</string>
+    <string name="label_jan_aushadhi_price">Jan Aushadhi Price</string>
+    <string name="btn_call_store">CALL STORE</string>
+
+    <!-- Replace with your actual web client ID from Google Cloud Console / Firebase -->
+    <string name="default_web_client_id">533726337926-ls5stmvamocjkk10k13g8dhi7d91alj1.apps.googleusercontent.com</string>
+</resources>
