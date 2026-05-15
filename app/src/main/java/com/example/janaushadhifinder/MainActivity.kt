@@ -395,18 +395,18 @@ fun HomeScreen(
 
             Spacer(modifier = Modifier.height(32.dp))
 
-            OutlinedTextField(
-                value = searchQuery,
-                onValueChange = { searchQuery = it },
-                modifier = Modifier.fillMaxWidth(),
-                placeholder = { Text("Search by medicine or brand") },
-                leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
-                shape = RoundedCornerShape(12.dp),
-                colors = OutlinedTextFieldDefaults.colors(
-                    unfocusedBorderColor = Color(0xFFE2E8F0),
-                    focusedBorderColor = Color(0xFF007944)
-                )
-            )
+//            OutlinedTextField(
+//                value = searchQuery,
+//                onValueChange = { searchQuery = it },
+//                modifier = Modifier.fillMaxWidth(),
+//                placeholder = { Text("Search by medicine or brand") },
+//                leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
+//                shape = RoundedCornerShape(12.dp),
+//                colors = OutlinedTextFieldDefaults.colors(
+//                    unfocusedBorderColor = Color(0xFFE2E8F0),
+//                    focusedBorderColor = Color(0xFF007944)
+//                )
+//            )
 
             Spacer(modifier = Modifier.height(24.dp))
 
