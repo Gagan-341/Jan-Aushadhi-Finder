@@ -66,6 +66,9 @@ Jan Aushadhi Finder is an Android application designed to help users find afford
 - **Search Results:** 500+ List of medicines with price information and Filtering of medicines based on categories and Price.
 - **Store Locator:** Google Map and list views of PMBJK stores with filters for State and City.
 
+## APK Download
+Download the APK file from the repository to install and test the application.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
