@@ -38,7 +38,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.firestore.ktx.firestore
-
+import com.example.janaushadhifinder.MedicineData
 
 class MainActivity : ComponentActivity() {
     private lateinit var auth: FirebaseAuth
@@ -48,6 +48,7 @@ class MainActivity : ComponentActivity() {
         auth = Firebase.auth
 //        uploadMedicines()
 //        uploadStores()
+//        MedicineData.uploadLargeMedicineDataset()
         enableEdgeToEdge()
         setContent {
             // State to track the current user reactively
@@ -95,6 +96,7 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
 
     private fun uploadMedicines() {
         val db = Firebase.firestore
